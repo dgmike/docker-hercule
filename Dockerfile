@@ -7,4 +7,4 @@ RUN mkdir -p /doc
 
 WORKDIR /doc
 
-ENTRYPOINT hercule
+ENTRYPOINT ["hercule"]
